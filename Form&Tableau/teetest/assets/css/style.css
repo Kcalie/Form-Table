@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+}
+.bordure{
+    background-color: aqua;
+}
+.flex{
+    display: flex;
+}
+.allin{
+    border: 2px solid blue;
+    background-color: rgb(240, 235, 235);
+}
+.gauche{
+    padding: 10px;
+}
+.droite{
+    padding: 10px;
+}
+.gauche .input label, .droite .inputt label{
+    display: block;
+    margin: 10px;
+}
+.foot{
+    text-align: center;
+    padding: 10px;
+    
+}
+.foot button{
+    background-color: rgb(92, 48, 92);
+    width: 65px;
+    height: 45px;
+    color: #fff;
+    border-radius: 6px;
+}
+h1{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    color: blueviolet;
+}
+

@@ -1,0 +1,35 @@
+body{
+    margin: 50px;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(147, 85, 204);
+}
+form{
+    background-color: bisque;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid blue;
+    border-radius: 6px;
+}
+.buttonf{
+    text-align: end;
+    margin: 10px;
+}
+table{
+    border: 1px thick doubled black;
+    border-radius: 6px;
+    margin: 10px;
+}
+thead{
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+tr, td, th{
+    border: 1px solid rgb(151, 75, 75);
+    padding: 10px;
+    
+}

@@ -1,0 +1,229 @@
+body{
+    background: rgb(214, 211, 211);
+}
+
+/*NAVIGATION*/
+
+.navigation{
+    background: black;
+    display: flex;
+    border: 2px dotted red;
+}
+.image img{
+    padding: 12px;
+    width: 95px;
+    height: auto;
+}
+.image{
+    width: 14%;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.ligolden li a{
+    color: gold;
+}
+li a:hover{
+    color: rgb(91, 91, 233);
+}
+.lired li a{
+    color: red;
+}
+.lired li a:hover{
+    color: rgb(0, 98, 105);
+}
+.hovergreen li a:hover{
+    color: green;
+}
+.uli, .oli, .ili, .ali{
+    width: 14%;
+}
+
+/*FORMULAIRE 01*/
+
+.form1-2{
+    display: flex;
+}
+
+.formulaire{
+    margin: 50px;
+    width: 60%;
+    border: 2px solid black;
+}
+.formulaire  label{
+    display: block;
+}
+.formulaire .input input, .formulaire label, .formulaire .input textarea {
+    width: 100%;
+}
+.formulaire .input{
+    padding: 10px;
+}
+/*BUTTON*/
+.formulaire .centerbutton{/*pour placer le bouton au bout*/
+    text-align: end;
+}
+.formulaire .input button{
+    background: rgb(88, 73, 170);
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    border: 2px dotted black;
+}
+.formulaire .input button:hover{
+    background: #fff;
+}
+
+/*FORMULAIRE 02*/
+
+.formulaire2{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    width: 40%;
+    border: 2px solid black;
+}
+.formulaire2  label{ /*permet de mettre les titres au dessus*/
+    display: block;  
+}
+.formulaire2 .input input, .formulaire2 label, .formulaire2 .input textarea{/*align au milieu du block le formulaire*/
+    width: 95%;
+    text-align: center;
+}
+.formulaire2 .input{/*padding entre les partie du formulaire*/
+    padding: 10px;
+}
+
+/*BUTTON*/
+
+.formulaire2 .centerbutton{/*pour placer le bouton au milieu*/
+    text-align: center;
+}
+.formulaire2 .input button{
+    background: rgb(88, 73, 170);
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    border: 2px dotted black;
+}
+.formulaire2 .input button:hover{
+    background: #fff;
+}
+
+/*FORMULAIRE 3*/
+
+.f3{
+    /*display: flex;
+    justify-content: center;*/
+    border: 2px solid black;
+    margin: 50px;
+    padding: 10px;
+    width: 22%;
+}
+.flex2{
+    display: flex;
+}
+.flex2 .ipt{
+    padding: 5px;
+}
+.flexage{
+    padding: 5px;
+}
+.flexage .ipt input{
+    width: 96.2%;
+}
+.flex3{
+    display: flex;
+}
+.flex3 label{
+    display: block;
+}
+.flex3 .ipt{
+    display: block;
+    padding: 5px;
+}
+.fiche{
+    padding-left: 47px;
+}
+.fiche input[type=file]{
+    color: blueviolet;/*color sur "aucun fichier séléctionner"*/
+}
+.flexage .ipt2 label{
+    display: block;
+}
+.flexage .ipt2 textarea{
+    width: 96.2%;
+}
+.f3 .centerbutton{/*pour placer le bouton au milieu*/
+    text-align: center;
+}
+.f3 .input button{
+    background: rgb(88, 73, 170);
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    border: 2px dotted black;
+}
+.f3 .input button:hover{
+    background: #fff;
+}
+
+
+
+/*Formulaire New*/
+.last{
+    display: flex;
+    justify-content: center;/*place au milieu*/
+    margin: 50px;/*decale du bord de l'ecran*/
+    border: 2px solid black;
+    background: grey; /*background de la zone*/
+    width: 80%;/*defini la zone de la class sur l'ecran (80% de l'ecran)*/
+}
+.col1, .col2{
+    display: flex; /*place l'un a cote de l'autre*/
+    justify-content: center;/*place au milieu*/
+}
+.col1 .tip label, .col2 .tip label, .col3 .tip label, .col0 .tip label{
+    display: block;/*label au dessus de input (sinon a côté)*/
+    text-align: center;
+}
+.col1 .tip, .col2 .tip, .col0 .tip, .col3 .tip{
+    padding: 5px;/*fait un espace entre chaque "tip" d'une meme colonne car sinon collé*/
+}
+.col3 .tip textarea{
+    width: 98%; /* taille de la textarea*/
+}
+
+.col0 .tip input{
+    width: 98%; /* taille de la input*/
+}
+.crbutton{
+    text-align: center;/*aligne le bouton au milieu*/
+}
+.last .tip button{/*couleur, taille, bordure du button*/
+    height: 50px;
+    width: 80px;
+    background: yellow;
+    border:2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.last .tip button:hover{/*couleur button hover*/
+    background: blueviolet;
+}
+.last .crbutton .tip button{/*couleur & taille text envoyé sur button*/
+    color: green;
+    font-size: 17px;
+}
+.last .crbutton .tip button:hover{/*couleur & taille text envoyé sur button hover*/
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+
